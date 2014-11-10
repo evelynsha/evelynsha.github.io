@@ -272,9 +272,10 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  width: 95%;
+  max-width: 1688px;
   padding: 20px 10px;
-  margin: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 100px;
 }
 
 #forkme_banner {
@@ -378,7 +379,6 @@ Full-Width Styles
 
 
 
-
 #project_menu {
   width: 400px;
   margin: 0px;
@@ -409,8 +409,6 @@ Full-Width Styles
   background: rgb(176, 61, 61);
 }
 
-
-
 #project_menu ul li a {
   text-decoration: none;
   color: white;
@@ -418,8 +416,56 @@ Full-Width Styles
 }
 
 
+/* ------------- product layout ------------- */
+#product_empty {
+	width: 1%;
+	height: 750px;
+	display: inline-block;
+}
 
+#product_board {
+	float: left;
+	width: 30%;
+}
 
+#product_adaptor {
+	float: left;
+	width: 35%;
+}
+
+#product_tools {
+	float: left;
+	width: 20%;
+}
+
+h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
+	font-weight: normal;
+	color: #6B6B6B;
+}
+
+#product_board_content, #product_adaptor_content {
+	margin: 30px 30px 20px 0px;
+	height: 600px;
+	border-right: 1px solid grey;
+}
+
+#product_board_content_board1 {
+	height: 400px;
+	padding: 20px 20px 20px 20px;
+}
+
+#product_board_content_board1 img {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 20px 0px 0px 20px;
+	cursor: pointer;
+	width: 200px;
+	height: 200px;
+}
+
+#product_board_content_board1 p {
+	margin: 5px 0px 0px 70px;
+}
 
 
 
