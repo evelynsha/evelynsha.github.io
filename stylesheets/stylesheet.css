@@ -308,18 +308,19 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
-  color: #fff;
+  color: #E8E8E8;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #BDBDBD 0px 0px 10px;
+  text-shadow: #5C5C5C 0px 0px 10px;
 }
 
 #project_tagline {
-  color: #fff;
-  font-size: 24px;
+  color: #E8E8E8;
+  font-size: 22px;
   font-weight: 300;
   background: none;
-  text-shadow: #BDBDBD 0px 0px 10px;
+  margin-left: 15px;
+  text-shadow: #5C5C5C 0px 0px 10px;
 }
 
 #downloads {
@@ -393,7 +394,7 @@ Full-Width Styles
 
 #project_menu ul li {
   float: left;
-  padding: 5px 8px 5px 8px;
+  padding: 5px 12px 5px 8px;
   display: block;
 }
 
@@ -487,6 +488,11 @@ h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
 
 #product_adaptor_content_adapter01 p, #product_adaptor_content_adapter02 p {
 	margin: 5px 0px 0px 80px;
+}
+
+footer.inner span {
+	color: rgb(207, 207, 207);
+	padding-left: 500px;
 }
 
 
