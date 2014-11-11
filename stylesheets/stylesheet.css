@@ -469,15 +469,15 @@ h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
 	margin: 5px 0px 0px 30px;
 }
 
-#product_adaptor_content_adapter01 {
-	height: 400px;
+#product_adaptor_content_adapter01, #product_adaptor_content_adapter02 {
+	height: 250px;
 	padding: 20px 30px 20px 80px;
 	float: left;
-	width: 500px;
+	width: 300px;
 }
 
-#product_adaptor_content_adapter01 img {
-	display: inline-block;
+#product_adaptor_content_adapter01 img, #product_adaptor_content_adapter02 img {
+	display: block;
 	vertical-align: middle;
 	margin: 20px 0px 0px 20px;
 	cursor: pointer;
@@ -485,7 +485,7 @@ h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
 	height: 200px;
 }
 
-#product_adaptor_content_adapter01 p {
+#product_adaptor_content_adapter01 p, #product_adaptor_content_adapter02 p {
 	margin: 5px 0px 0px 80px;
 }
 
