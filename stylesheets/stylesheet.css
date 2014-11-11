@@ -487,7 +487,7 @@ h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
 }
 
 #product_adaptor_content_adapter01 p, #product_adaptor_content_adapter02 p {
-	margin: 5px 0px 0px 80px;
+	margin: 5px 0px 0px 20px;
 }
 
 footer.inner span {
