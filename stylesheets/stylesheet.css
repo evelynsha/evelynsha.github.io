@@ -477,6 +477,10 @@ h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
 	width: 70%
 }
 
+#product_adaptor_content_adapter02 img {
+  width: 80% !important;
+}
+
 #product_adaptor_content_adapter01 p, #product_adaptor_content_adapter02 p {
 	margin: 5px 0px 0px 20px;
 }
@@ -485,7 +489,7 @@ footer.inner span {
 	color: rgb(207, 207, 207);
 	padding-left: 500px;
 }
-
+/* ---------------- product end ------------------------*/
 
 
 
