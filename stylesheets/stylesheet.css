@@ -491,7 +491,11 @@ footer.inner span {
 }
 /* ---------------- product end ------------------------*/
 
-
+/* ---------------- error section ----------------------*/
+#error_section {
+  width: 40%;
+  height: 100px;
+}
 
 
 
