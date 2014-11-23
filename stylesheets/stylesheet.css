@@ -419,7 +419,7 @@ Full-Width Styles
 /* ------------- product layout ------------- */
 #product_empty {
 	width: 1%;
-	height: 750px;
+	height: 1250px;
 	display: inline-block;
 }
 
@@ -445,7 +445,7 @@ h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
 
 #product_board_content, #product_adaptor_content, #product_tools_content {
 	margin: 30px 30px 20px 0px;
-  height: 600px;
+  height: 1100px;
 	border-right: 1px solid grey;
 }
 
@@ -453,53 +453,57 @@ h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
   border-right: none;
 }
 
-#product_board_content_board1, #product_board_content_board2 {
+.product_board_content_board1, .product_board_content_board2 {
 	float: left;
 	width: 50%;
 }
 
-#product_board_content_board1 img, #product_board_content_board2 img {
+.next {
+  clear: both;
+}
+
+.product_board_content_board1 img, .product_board_content_board2 img {
 	display: inline-block;
 	margin: 20px 0px 0px 20px;
 	cursor: pointer;
 	width: 70%;
 }
 
-#product_board_content_board1 p, #product_board_content_board2 p {
+.product_board_content_board1 p, .product_board_content_board2 p {
 	margin: 5px 0px 0px 30px;
 }
 
-#product_adaptor_content_adapter01, #product_adaptor_content_adapter02 {
+.product_adaptor_content_adapter01, .product_adaptor_content_adapter02 {
 	padding: 20px 30px 20px 30px;
 	float: left;
 }
 
-#product_adaptor_content_adapter01 img, #product_adaptor_content_adapter02 img {
+.product_adaptor_content_adapter01 img, .product_adaptor_content_adapter02 img {
 	display: block;
 	cursor: pointer;
 	width: 72%
 }
 
-#product_adaptor_content_adapter02 img {
+.product_adaptor_content_adapter02 img {
   width: 80% !important;
 }
 
-#product_adaptor_content_adapter01 p, #product_adaptor_content_adapter02 p {
+.product_adaptor_content_adapter01 p, .product_adaptor_content_adapter02 p {
 	margin: 5px 0px 0px 20px;
 }
 
-#product_tools_content_model, #product_tools_content_scatter {
+.product_tools_content_model, #product_tools_content_scatter {
   padding: 20px 30px 20px 30px;
   float: left;
 }
 
-#product_tools_content_model img, #product_tools_content_scatter img {
+.product_tools_content_model img, #product_tools_content_scatter img {
   display: block;
   cursor: pointer;
   width: 80%
 }
 
-#product_tools_content_model p, #product_tools_content_scatter p {
+.product_tools_content_model p, #product_tools_content_scatter p {
   margin: 5px 0px 0px 20px;
 }
 
