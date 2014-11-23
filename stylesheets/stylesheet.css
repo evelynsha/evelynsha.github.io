@@ -516,6 +516,10 @@ footer.inner span {
 	padding-left: 500px;
 }
 
+#main_content pre {
+  width: 80%;
+}
+
 /* ---------------- product end ------------------------*/
 
 /* ---------------- error section ----------------------*/
