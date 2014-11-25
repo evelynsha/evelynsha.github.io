@@ -419,7 +419,7 @@ Full-Width Styles
 /* ------------- product layout ------------- */
 #product_empty {
 	width: 1%;
-	height: 1250px;
+	height: 1350px;
 	display: inline-block;
 }
 
@@ -445,7 +445,7 @@ h1.product_board_head, h1.product_adaptor_head, h1.product_tools_head {
 
 #product_board_content, #product_adaptor_content, #product_tools_content {
 	margin: 30px 30px 20px 0px;
-  height: 1100px;
+  height: 1200px;
 	border-right: 1px solid grey;
 }
 
