@@ -1,0 +1,8 @@
+title: Evelynsha.github.io
+description: Glen's embrella
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
